@@ -18,7 +18,7 @@ from docqa.store import DocumentStore, get_embeddings
 load_dotenv()
 SAMPLES = Path(__file__).parent / "sample_docs"
 EXAMPLES = [
-    "How long is the warranty on a water purifier, and does it cover the cartridge?",
+    "How long does standard delivery take?",
     "How much is the daily meal limit when travelling?",
     "What do standard and express delivery cost?",
     "What is the dress code at the office?",

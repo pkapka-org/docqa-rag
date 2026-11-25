@@ -89,6 +89,8 @@ How to read these numbers:
   score from 8 to 7.
 - The 3B model was scored twice with the same totals. Both of its misses were "not found" replies to questions
   the documents do answer. It was run after the 1.5B results were known, with no settings changed.
+  Its dev score is not recorded here, and it missed at least one dev question that the 1.5B model answers
+  (the purifier warranty), so do not read 9/11 against 8/11 as a clear win.
 - **Claude and OpenAI are supported but not scored yet.** Their setup is unit-tested without live calls.
 
 The evaluation changed the design. On the first dev run the 1.5B model gave no citation in five of six
