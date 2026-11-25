@@ -73,6 +73,7 @@ Some need facts combined, and some have no answer in the documents. Test results
 |---|---|---|---|---|
 | No LLM (quotes) | 11/11 | 7/11 | 10/11 | 2/4 |
 | Ollama, qwen2.5:1.5b | 11/11 | 8/11 | 9/11 | 4/4 |
+| Ollama, qwen2.5:3b | 11/11 | 9/11 | 9/11 | 4/4 |
 
 Reproduce with `python -m evaluation.run --set test --provider ollama`. Every answer is in
 [evaluation/results](evaluation/results).
@@ -86,6 +87,8 @@ How to read these numbers:
   saved run.
 - One grading rule was too loose and was tightened after the first test run. That lowered the no-LLM
   score from 8 to 7.
+- The 3B model was scored twice with the same totals. Both of its misses were "not found" replies to questions
+  the documents do answer. It was run after the 1.5B results were known, with no settings changed.
 - **Claude and OpenAI are supported but not scored yet.** Their setup is unit-tested without live calls.
 
 The evaluation changed the design. On the first dev run the 1.5B model gave no citation in five of six
