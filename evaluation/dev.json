@@ -1,0 +1,134 @@
+[
+ {
+  "id": "d1",
+  "type": "simple",
+  "question": "How many days of annual leave do full-time employees get?",
+  "must_include": [
+   [
+    "26"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "employee_handbook.pdf",
+    "page": 2
+   }
+  ]
+ },
+ {
+  "id": "d2",
+  "type": "simple",
+  "question": "How long does standard delivery take?",
+  "must_include": [
+   [
+    "3 to 5",
+    "3-5"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "shipping_and_returns.txt"
+   }
+  ]
+ },
+ {
+  "id": "d3",
+  "type": "simple",
+  "question": "What is the pore size of the Rill?",
+  "must_include": [
+   [
+    "0.1"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "rill_purifier_manual.md",
+    "section": "Specifications"
+   }
+  ]
+ },
+ {
+  "id": "d4",
+  "type": "simple",
+  "question": "What grease should I use on the O-ring?",
+  "must_include": [
+   [
+    "silicone"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "rill_purifier_manual.md",
+    "section": "Troubleshooting"
+   }
+  ]
+ },
+ {
+  "id": "d5",
+  "type": "simple",
+  "question": "How much is the daily meal limit when travelling?",
+  "must_include": [
+   [
+    "55"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "employee_handbook.pdf",
+    "page": 4
+   }
+  ]
+ },
+ {
+  "id": "d6",
+  "type": "combine",
+  "question": "How long is the warranty on a water purifier, and does it cover the cartridge?",
+  "must_include": [
+   [
+    "two-year",
+    "two year",
+    "2-year",
+    "2 year"
+   ],
+   [
+    "exclud",
+    "not cover",
+    "does not",
+    "isn't"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "shipping_and_returns.txt"
+   }
+  ]
+ },
+ {
+  "id": "d7",
+  "type": "absent",
+  "question": "What is the CEO's name?",
+  "must_include": [],
+  "sources": []
+ },
+ {
+  "id": "d8",
+  "type": "absent",
+  "question": "How do I reset the Wi-Fi password on my router?",
+  "must_include": [],
+  "sources": []
+ },
+ {
+  "id": "d9",
+  "type": "absent",
+  "question": "Does Larkspur ship to Japan by sea freight, and how much does it cost?",
+  "must_include": [],
+  "sources": []
+ },
+ {
+  "id": "d10",
+  "type": "absent",
+  "question": "How many calories should I eat on a long hike?",
+  "must_include": [],
+  "sources": []
+ }
+]

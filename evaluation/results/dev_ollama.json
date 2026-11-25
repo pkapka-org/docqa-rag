@@ -1,0 +1,158 @@
+{
+ "summary": {
+  "set": "dev",
+  "provider": "ollama",
+  "model": "qwen2.5:1.5b",
+  "retrieval": "6/6",
+  "answer": "6/6",
+  "citation": "6/6",
+  "refusal": "4/4",
+  "median_seconds": 2.28
+ },
+ "rows": [
+  {
+   "id": "d1",
+   "type": "simple",
+   "question": "How many days of annual leave do full-time employees get?",
+   "answer": "26 days [1]",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 2"
+   ],
+   "top_score": 0.854,
+   "seconds": 3.23,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d2",
+   "type": "simple",
+   "question": "How long does standard delivery take?",
+   "answer": "Standard delivery takes 3 to 5 working days [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "shipping_and_returns.txt, chunk 1"
+   ],
+   "top_score": 0.723,
+   "seconds": 4.5,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d3",
+   "type": "simple",
+   "question": "What is the pore size of the Rill?",
+   "answer": "0.1 micron [2]",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > Specifications"
+   ],
+   "top_score": 0.737,
+   "seconds": 2.28,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d4",
+   "type": "simple",
+   "question": "What grease should I use on the O-ring?",
+   "answer": "Grease the O-ring with silicone grease [1]. Never use petroleum jelly, which makes the ring swell [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > Troubleshooting"
+   ],
+   "top_score": 0.704,
+   "seconds": 1.68,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d5",
+   "type": "simple",
+   "question": "How much is the daily meal limit when travelling?",
+   "answer": "55 euros [1]",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 4"
+   ],
+   "top_score": 0.767,
+   "seconds": 0.97,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d6",
+   "type": "combine",
+   "question": "How long is the warranty on a water purifier, and does it cover the cartridge?",
+   "answer": "The warranty on a water purifier is two years [1]. It does not cover the cartridge [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "shipping_and_returns.txt, chunk 2"
+   ],
+   "top_score": 0.797,
+   "seconds": 4.2,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d7",
+   "type": "absent",
+   "question": "What is the CEO's name?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.44, below 0.65.",
+   "cited": [],
+   "top_score": 0.439,
+   "seconds": 0.01,
+   "refusal": true
+  },
+  {
+   "id": "d8",
+   "type": "absent",
+   "question": "How do I reset the Wi-Fi password on my router?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.51, below 0.65.",
+   "cited": [],
+   "top_score": 0.513,
+   "seconds": 0.01,
+   "refusal": true
+  },
+  {
+   "id": "d9",
+   "type": "absent",
+   "question": "Does Larkspur ship to Japan by sea freight, and how much does it cost?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.798,
+   "seconds": 4.51,
+   "refusal": true
+  },
+  {
+   "id": "d10",
+   "type": "absent",
+   "question": "How many calories should I eat on a long hike?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.63, below 0.65.",
+   "cited": [],
+   "top_score": 0.628,
+   "seconds": 0.01,
+   "refusal": true
+  }
+ ]
+}

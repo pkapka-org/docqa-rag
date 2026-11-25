@@ -1,0 +1,234 @@
+[
+ {
+  "id": "t1",
+  "type": "simple",
+  "question": "Who do I call if my work laptop is stolen, and how quickly?",
+  "must_include": [
+   [
+    "4410"
+   ],
+   [
+    "two hours",
+    "2 hours"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "employee_handbook.pdf",
+    "page": 5
+   }
+  ]
+ },
+ {
+  "id": "t2",
+  "type": "simple",
+  "question": "How much paid leave does the secondary carer of a new baby get?",
+  "must_include": [
+   [
+    "8 weeks",
+    "eight weeks"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "employee_handbook.pdf",
+    "page": 3
+   }
+  ]
+ },
+ {
+  "id": "t3",
+  "type": "simple",
+  "question": "Can I return a purifier cartridge after opening it?",
+  "must_include": [
+   [
+    "opened water purifier cartridge",
+    "opened cartridge",
+    "no,",
+    "no.",
+    "purifier cartridges and",
+    "after opening"
+   ],
+   [
+    "cannot",
+    "can't",
+    "not be returned",
+    "no,",
+    "no."
+   ]
+  ],
+  "sources": [
+   {
+    "source": "shipping_and_returns.txt"
+   }
+  ]
+ },
+ {
+  "id": "t4",
+  "type": "simple",
+  "question": "What is the fee for repairing a tent that is out of warranty?",
+  "must_include": [
+   [
+    "35"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "shipping_and_returns.txt"
+   }
+  ]
+ },
+ {
+  "id": "t5",
+  "type": "simple",
+  "question": "How often should the cartridge be backflushed?",
+  "must_include": [
+   [
+    "50 lit"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "rill_purifier_manual.md",
+    "section": "Cleaning and storage"
+   }
+  ]
+ },
+ {
+  "id": "t6",
+  "type": "simple",
+  "question": "What does the Rill not filter out?",
+  "must_include": [
+   [
+    "virus"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "rill_purifier_manual.md",
+    "section": "What it removes"
+   }
+  ]
+ },
+ {
+  "id": "t7",
+  "type": "simple",
+  "question": "When do carried-over holidays expire?",
+  "must_include": [
+   [
+    "31 March"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "employee_handbook.pdf",
+    "page": 2
+   }
+  ]
+ },
+ {
+  "id": "t8",
+  "type": "simple",
+  "question": "How big is the learning budget?",
+  "must_include": [
+   [
+    "1,200",
+    "1200"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "employee_handbook.pdf",
+    "page": 6
+   }
+  ]
+ },
+ {
+  "id": "t9",
+  "type": "combine",
+  "question": "My Rill cartridge froze on a trip. Is it safe to keep using, and will the warranty pay for a new one?",
+  "must_include": [
+   [
+    "replace"
+   ],
+   [
+    "not cover",
+    "does not",
+    "exclud",
+    "won't",
+    "will not"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "rill_purifier_manual.md",
+    "section": "Freezing"
+   },
+   {
+    "source": "shipping_and_returns.txt"
+   }
+  ]
+ },
+ {
+  "id": "t10",
+  "type": "combine",
+  "question": "An employee has worked here for six years. How many annual leave days do they get in total?",
+  "must_include": [
+   [
+    "29"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "employee_handbook.pdf",
+    "page": 2
+   }
+  ]
+ },
+ {
+  "id": "t11",
+  "type": "combine",
+  "question": "What do standard and express delivery each cost?",
+  "must_include": [
+   [
+    "4.90"
+   ],
+   [
+    "12.50"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "shipping_and_returns.txt"
+   }
+  ]
+ },
+ {
+  "id": "t12",
+  "type": "absent",
+  "question": "What is the dress code at the office?",
+  "must_include": [],
+  "sources": []
+ },
+ {
+  "id": "t13",
+  "type": "absent",
+  "question": "How much does the Rill purifier cost?",
+  "must_include": [],
+  "sources": []
+ },
+ {
+  "id": "t14",
+  "type": "absent",
+  "question": "What are the battery life and charging time of the Rill?",
+  "must_include": [],
+  "sources": []
+ },
+ {
+  "id": "t15",
+  "type": "absent",
+  "question": "What is the capital of Australia?",
+  "must_include": [],
+  "sources": []
+ }
+]

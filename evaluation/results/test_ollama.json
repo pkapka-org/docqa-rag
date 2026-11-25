@@ -1,0 +1,235 @@
+{
+ "summary": {
+  "set": "test",
+  "provider": "ollama",
+  "model": "qwen2.5:1.5b",
+  "retrieval": "11/11",
+  "answer": "8/11",
+  "citation": "9/11",
+  "refusal": "4/4",
+  "median_seconds": 1.65
+ },
+ "rows": [
+  {
+   "id": "t1",
+   "type": "simple",
+   "question": "Who do I call if my work laptop is stolen, and how quickly?",
+   "answer": "Extension 4410 [1]. Two hours [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 5"
+   ],
+   "top_score": 0.71,
+   "seconds": 2.21,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "t2",
+   "type": "simple",
+   "question": "How much paid leave does the secondary carer of a new baby get?",
+   "answer": "8 weeks [1]",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 3"
+   ],
+   "top_score": 0.72,
+   "seconds": 1.21,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "t3",
+   "type": "simple",
+   "question": "Can I return a purifier cartridge after opening it?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.721,
+   "seconds": 4.34,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "t4",
+   "type": "simple",
+   "question": "What is the fee for repairing a tent that is out of warranty?",
+   "answer": "35 euros [1]",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "shipping_and_returns.txt, chunk 2"
+   ],
+   "top_score": 0.816,
+   "seconds": 1.02,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "t5",
+   "type": "simple",
+   "question": "How often should the cartridge be backflushed?",
+   "answer": "Backflush the cartridge after every 50 litres by pumping clean water through it in reverse [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > Cleaning and storage"
+   ],
+   "top_score": 0.795,
+   "seconds": 1.78,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "t6",
+   "type": "simple",
+   "question": "What does the Rill not filter out?",
+   "answer": "The Rill does not filter out viruses, dissolved salt, or heavy metals [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > What it removes"
+   ],
+   "top_score": 0.706,
+   "seconds": 1.65,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "t7",
+   "type": "simple",
+   "question": "When do carried-over holidays expire?",
+   "answer": "31 March [1]",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 2"
+   ],
+   "top_score": 0.708,
+   "seconds": 5.06,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "t8",
+   "type": "simple",
+   "question": "How big is the learning budget?",
+   "answer": "1,200 euros per calendar year [1]",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 6"
+   ],
+   "top_score": 0.712,
+   "seconds": 1.27,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "t9",
+   "type": "combine",
+   "question": "My Rill cartridge froze on a trip. Is it safe to keep using, and will the warranty pay for a new one?",
+   "answer": "Yes, it is safe to keep using the cartridge [1]. The warranty covers faults in material and workmanship, not damage caused by freezing [2]. The warranty does not cover normal wear, accidents, or damage caused by freezing [2]. To make a claim, send photographs and the order number to the repairs team [2].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > Cleaning and storage > Freezing",
+    "shipping_and_returns.txt, chunk 2"
+   ],
+   "top_score": 0.806,
+   "seconds": 7.0,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": true
+  },
+  {
+   "id": "t10",
+   "type": "combine",
+   "question": "An employee has worked here for six years. How many annual leave days do they get in total?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "No retrieved passage supports the model's answer, so it was withheld.",
+   "cited": [],
+   "top_score": 0.785,
+   "seconds": 5.03,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "t11",
+   "type": "combine",
+   "question": "What do standard and express delivery each cost?",
+   "answer": "Standard delivery costs 4.90 euros [1].\nExpress delivery costs 12.50 euros [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "shipping_and_returns.txt, chunk 1"
+   ],
+   "top_score": 0.669,
+   "seconds": 1.92,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "t12",
+   "type": "absent",
+   "question": "What is the dress code at the office?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.58, below 0.65.",
+   "cited": [],
+   "top_score": 0.583,
+   "seconds": 0.01,
+   "refusal": true
+  },
+  {
+   "id": "t13",
+   "type": "absent",
+   "question": "How much does the Rill purifier cost?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.745,
+   "seconds": 1.09,
+   "refusal": true
+  },
+  {
+   "id": "t14",
+   "type": "absent",
+   "question": "What are the battery life and charging time of the Rill?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.666,
+   "seconds": 1.11,
+   "refusal": true
+  },
+  {
+   "id": "t15",
+   "type": "absent",
+   "question": "What is the capital of Australia?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.43, below 0.65.",
+   "cited": [],
+   "top_score": 0.429,
+   "seconds": 0.02,
+   "refusal": true
+  }
+ ]
+}

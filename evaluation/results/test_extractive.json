@@ -1,0 +1,245 @@
+{
+ "summary": {
+  "set": "test",
+  "provider": "extractive",
+  "model": "none",
+  "retrieval": "11/11",
+  "answer": "7/11",
+  "citation": "10/11",
+  "refusal": "2/4",
+  "median_seconds": 0.12
+ },
+ "rows": [
+  {
+   "id": "t1",
+   "type": "simple",
+   "question": "Who do I call if my work laptop is stolen, and how quickly?",
+   "answer": "A lost or stolen device must be reported to the security desk at extension 4410 within two hours of discovery [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 5"
+   ],
+   "top_score": 0.71,
+   "seconds": 0.12,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "t2",
+   "type": "simple",
+   "question": "How much paid leave does the secondary carer of a new baby get?",
+   "answer": "The primary carer of a new child receives 22 weeks of fully paid parental leave [1]. The secondary carer receives 8 weeks of fully paid leave, which may be taken in up to two blocks during the first year [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 3"
+   ],
+   "top_score": 0.72,
+   "seconds": 0.11,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "t3",
+   "type": "simple",
+   "question": "Can I return a purifier cartridge after opening it?",
+   "answer": "If the flow drops below 0.5 litres per minute even after backflushing, replace the cartridge [2]. Products with printed logos cannot be returned [3].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > Cleaning and storage",
+    "shipping_and_returns.txt, chunk 2"
+   ],
+   "top_score": 0.721,
+   "seconds": 0.15,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": true
+  },
+  {
+   "id": "t4",
+   "type": "simple",
+   "question": "What is the fee for repairing a tent that is out of warranty?",
+   "answer": "Outside the warranty, we repair tents and backpacks for a flat fee of 35 euros, including return postage [1]. Tents and backpacks carry a five-year warranty [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "shipping_and_returns.txt, chunk 2"
+   ],
+   "top_score": 0.816,
+   "seconds": 0.15,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "t5",
+   "type": "simple",
+   "question": "How often should the cartridge be backflushed?",
+   "answer": "If the flow drops below 0.5 litres per minute even after backflushing, replace the cartridge [1]. Backflush the cartridge after every 50 litres by pumping clean water through it in reverse [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > Cleaning and storage"
+   ],
+   "top_score": 0.795,
+   "seconds": 0.12,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "t6",
+   "type": "simple",
+   "question": "What does the Rill not filter out?",
+   "answer": "The Rill removes bacteria, protozoa and microplastics [1]. The Rill is a hand-pumped water purifier for hikers [2].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > What it removes",
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual"
+   ],
+   "top_score": 0.706,
+   "seconds": 0.04,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": true
+  },
+  {
+   "id": "t7",
+   "type": "simple",
+   "question": "When do carried-over holidays expire?",
+   "answer": "Up to 6 unused days may be carried into the next year, but carried days expire on 31 March [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 2"
+   ],
+   "top_score": 0.708,
+   "seconds": 0.13,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "t8",
+   "type": "simple",
+   "question": "How big is the learning budget?",
+   "answer": "Every employee has a learning budget of 1,200 euros per calendar year for courses, books and conferences, plus four paid learning days [1]. Courses costing more than 800 euros require a short written proposal to the line manager [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 6"
+   ],
+   "top_score": 0.712,
+   "seconds": 0.11,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "t9",
+   "type": "combine",
+   "question": "My Rill cartridge froze on a trip. Is it safe to keep using, and will the warranty pay for a new one?",
+   "answer": "If the flow drops below 0.5 litres per minute even after backflushing, replace the cartridge [3]. Before storing the Rill for more than two weeks, soak the cartridge for 10 minutes in a mild bleach solution of 2 ml per litre, then let it dry completely for 48 hours [3].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > Cleaning and storage"
+   ],
+   "top_score": 0.806,
+   "seconds": 0.15,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "t10",
+   "type": "combine",
+   "question": "An employee has worked here for six years. How many annual leave days do they get in total?",
+   "answer": "Full-time employees receive 26 days of paid annual leave per calendar year, in addition to public holidays [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 2"
+   ],
+   "top_score": 0.785,
+   "seconds": 0.12,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": true
+  },
+  {
+   "id": "t11",
+   "type": "combine",
+   "question": "What do standard and express delivery each cost?",
+   "answer": "Standard delivery takes 3 to 5 working days and costs 4.90 euros [1]. Express delivery takes one working day, costs 12.50 euros, and is available only for orders placed before 13:00 [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "shipping_and_returns.txt, chunk 1"
+   ],
+   "top_score": 0.669,
+   "seconds": 0.13,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "t12",
+   "type": "absent",
+   "question": "What is the dress code at the office?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.58, below 0.65.",
+   "cited": [],
+   "top_score": 0.583,
+   "seconds": 0.01,
+   "refusal": true
+  },
+  {
+   "id": "t13",
+   "type": "absent",
+   "question": "How much does the Rill purifier cost?",
+   "answer": "The Rill is a hand-pumped water purifier for hikers [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual"
+   ],
+   "top_score": 0.745,
+   "seconds": 0.09,
+   "refusal": false
+  },
+  {
+   "id": "t14",
+   "type": "absent",
+   "question": "What are the battery life and charging time of the Rill?",
+   "answer": "Before storing the Rill for more than two weeks, soak the cartridge for 10 minutes in a mild bleach solution of 2 ml per litre, then let it dry completely for 48 hours [2]. The Rill is a hand-pumped water purifier for hikers [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual",
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > Cleaning and storage"
+   ],
+   "top_score": 0.666,
+   "seconds": 0.08,
+   "refusal": false
+  },
+  {
+   "id": "t15",
+   "type": "absent",
+   "question": "What is the capital of Australia?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.43, below 0.65.",
+   "cited": [],
+   "top_score": 0.429,
+   "seconds": 0.01,
+   "refusal": true
+  }
+ ]
+}

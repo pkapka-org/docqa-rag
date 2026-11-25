@@ -1,0 +1,12 @@
+chromadb~=1.5
+fastembed~=0.9
+langchain-anthropic~=1.7
+langchain-chroma~=1.2
+langchain-core~=1.8
+langchain-ollama~=1.2
+langchain-openai~=1.8
+langchain-text-splitters~=1.2
+numpy>=2.0
+pypdf~=7.1
+python-dotenv~=1.2
+streamlit~=1.67
