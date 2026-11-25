@@ -130,3 +130,6 @@ On [share.streamlit.io](https://share.streamlit.io), choose this repo and `app.p
 to a public demo: visitors can use the no-LLM mode or paste their own.
 
 Short write-up: [docs/CASE_STUDY.md](docs/CASE_STUDY.md). License: MIT. The sample company is invented.
+
+Related: [expert-streaming](https://github.com/pkapka-org/expert-streaming), a from-scratch engine that runs a
+mixture-of-experts model from disk and can be connected to this app.
