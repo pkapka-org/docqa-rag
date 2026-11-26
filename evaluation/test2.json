@@ -1,0 +1,295 @@
+[
+ {
+  "id": "u1",
+  "type": "simple",
+  "question": "How many days a week can I work from home?",
+  "must_include": [
+   [
+    "three days",
+    "3 days",
+    "up to three",
+    "up to 3"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "employee_handbook.pdf",
+    "page": 1
+   }
+  ]
+ },
+ {
+  "id": "u2",
+  "type": "simple",
+  "question": "How long may I work from abroad in one year?",
+  "must_include": [
+   [
+    "20"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "employee_handbook.pdf",
+    "page": 1
+   }
+  ]
+ },
+ {
+  "id": "u3",
+  "type": "simple",
+  "question": "From which day of illness is a doctor's certificate needed?",
+  "must_include": [
+   [
+    "fourth",
+    "4th"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "employee_handbook.pdf",
+    "page": 3
+   }
+  ]
+ },
+ {
+  "id": "u4",
+  "type": "simple",
+  "question": "How long do I have to hand in an expense claim?",
+  "must_include": [
+   [
+    "45"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "employee_handbook.pdf",
+    "page": 4
+   }
+  ]
+ },
+ {
+  "id": "u5",
+  "type": "simple",
+  "question": "What do I get per kilometre for using my own car?",
+  "must_include": [
+   [
+    "0.38"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "employee_handbook.pdf",
+    "page": 4
+   }
+  ]
+ },
+ {
+  "id": "u6",
+  "type": "simple",
+  "question": "How much discount do staff get on products?",
+  "must_include": [
+   [
+    "40"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "employee_handbook.pdf",
+    "page": 6
+   }
+  ]
+ },
+ {
+  "id": "u7",
+  "type": "simple",
+  "question": "How long should I soak the cartridge before storing it?",
+  "must_include": [
+   [
+    "10 min",
+    "ten min"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "rill_purifier_manual.md",
+    "section": "Cleaning and storage"
+   }
+  ]
+ },
+ {
+  "id": "u8",
+  "type": "simple",
+  "question": "Can I use the Rill with sea water?",
+  "must_include": [
+   [
+    "do not use",
+    "not use",
+    "cannot",
+    "can't",
+    "should not",
+    "no,",
+    "not be used",
+    "not suitable"
+   ],
+   [
+    "sea water",
+    "seawater",
+    "sea"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "rill_purifier_manual.md",
+    "section": "What it removes"
+   }
+  ]
+ },
+ {
+  "id": "u9",
+  "type": "simple",
+  "question": "Which seal kit do I order if the base still leaks?",
+  "must_include": [
+   [
+    "RS-12"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "rill_purifier_manual.md",
+    "section": "Troubleshooting"
+   }
+  ]
+ },
+ {
+  "id": "u10",
+  "type": "simple",
+  "question": "Until what time can I order express delivery?",
+  "must_include": [
+   [
+    "13:00"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "shipping_and_returns.txt"
+   }
+  ]
+ },
+ {
+  "id": "u11",
+  "type": "combine",
+  "question": "Who pays the postage when I return something, and how many days do I have?",
+  "must_include": [
+   [
+    "customer"
+   ],
+   [
+    "60"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "shipping_and_returns.txt"
+   }
+  ]
+ },
+ {
+  "id": "u12",
+  "type": "combine",
+  "question": "How do the warranty periods for tents and water purifiers compare?",
+  "must_include": [
+   [
+    "five",
+    "5"
+   ],
+   [
+    "two",
+    "2"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "shipping_and_returns.txt"
+   }
+  ]
+ },
+ {
+  "id": "u13",
+  "type": "combine",
+  "question": "How much parental leave do the primary and the secondary carer get?",
+  "must_include": [
+   [
+    "22"
+   ],
+   [
+    "8"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "employee_handbook.pdf",
+    "page": 3
+   }
+  ]
+ },
+ {
+  "id": "u14",
+  "type": "combine",
+  "question": "What discount do business orders get, and when must the invoice be paid?",
+  "must_include": [
+   [
+    "12"
+   ],
+   [
+    "30"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "shipping_and_returns.txt"
+   }
+  ]
+ },
+ {
+  "id": "u15",
+  "type": "absent",
+  "question": "What is the notice period when I resign?",
+  "must_include": [],
+  "sources": []
+ },
+ {
+  "id": "u16",
+  "type": "absent",
+  "question": "Does the Rill have a Bluetooth app?",
+  "must_include": [],
+  "sources": []
+ },
+ {
+  "id": "u17",
+  "type": "absent",
+  "question": "Can I pay for my order in instalments?",
+  "must_include": [],
+  "sources": []
+ },
+ {
+  "id": "u18",
+  "type": "absent",
+  "question": "What is the maximum weight a Larkspur backpack can carry?",
+  "must_include": [],
+  "sources": []
+ },
+ {
+  "id": "u19",
+  "type": "absent",
+  "question": "Does the company offer a company car?",
+  "must_include": [],
+  "sources": []
+ },
+ {
+  "id": "u20",
+  "type": "absent",
+  "question": "Who wrote the play Hamlet?",
+  "must_include": [],
+  "sources": []
+ }
+]

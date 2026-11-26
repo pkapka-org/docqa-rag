@@ -31,7 +31,7 @@ class Settings:
     )
     top_k: int = field(default_factory=lambda: int(_env("TOP_K", "5")))
     # Cosine similarity the best chunk must reach before we try to answer at all.
-    min_relevance: float = field(default_factory=lambda: float(_env("MIN_RELEVANCE", "0.65")))
+    min_relevance: float = field(default_factory=lambda: float(_env("MIN_RELEVANCE", "0.60")))
 
     # Generation
     provider: str = field(default_factory=lambda: _env("LLM_PROVIDER", "extractive").lower())

@@ -130,5 +130,244 @@
   "question": "How many calories should I eat on a long hike?",
   "must_include": [],
   "sources": []
+ },
+ {
+  "id": "d11",
+  "type": "combine",
+  "question": "How many annual leave days do I get after seven years here?",
+  "must_include": [
+   [
+    "29",
+    "26"
+   ],
+   [
+    "29",
+    "3 days",
+    "three days"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "employee_handbook.pdf",
+    "page": 2
+   }
+  ]
+ },
+ {
+  "id": "d12",
+  "type": "combine",
+  "question": "Does the warranty pay for a purifier that froze?",
+  "must_include": [
+   [
+    "not cover",
+    "does not",
+    "no,",
+    "not covered",
+    "excluded"
+   ],
+   [
+    "freez",
+    "froze"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "shipping_and_returns.txt"
+   }
+  ]
+ },
+ {
+  "id": "d13",
+  "type": "simple",
+  "question": "I opened a purifier cartridge. Can I send it back?",
+  "must_include": [
+   [
+    "cannot",
+    "can't",
+    "not be returned",
+    "no,"
+   ],
+   [
+    "cartridge"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "shipping_and_returns.txt"
+   }
+  ]
+ },
+ {
+  "id": "d14",
+  "type": "simple",
+  "question": "When are core hours?",
+  "must_include": [
+   [
+    "10:00"
+   ],
+   [
+    "15:00"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "employee_handbook.pdf",
+    "page": 1
+   }
+  ]
+ },
+ {
+  "id": "d15",
+  "type": "simple",
+  "question": "I am ill. By what time do I have to let my manager know?",
+  "must_include": [
+   [
+    "09:30",
+    "9:30"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "employee_handbook.pdf",
+    "page": 3
+   }
+  ]
+ },
+ {
+  "id": "d16",
+  "type": "simple",
+  "question": "Is the hotel limit different in a capital city?",
+  "must_include": [
+   [
+    "210"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "employee_handbook.pdf",
+    "page": 4
+   }
+  ]
+ },
+ {
+  "id": "d17",
+  "type": "simple",
+  "question": "What does the purifier weigh?",
+  "must_include": [
+   [
+    "410"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "rill_purifier_manual.md",
+    "section": "Larkspur Rill Water Purifier Manual"
+   }
+  ]
+ },
+ {
+  "id": "d18",
+  "type": "simple",
+  "question": "My water tastes like plastic, what now?",
+  "must_include": [
+   [
+    "three lit",
+    "3 lit"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "rill_purifier_manual.md",
+    "section": "Troubleshooting"
+   }
+  ]
+ },
+ {
+  "id": "d19",
+  "type": "simple",
+  "question": "Which countries outside the EU do you deliver to?",
+  "must_include": [
+   [
+    "norway"
+   ],
+   [
+    "switzerland"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "shipping_and_returns.txt"
+   }
+  ]
+ },
+ {
+  "id": "d20",
+  "type": "simple",
+  "question": "How fast do I get my money back after a return?",
+  "must_include": [
+   [
+    "7 working",
+    "seven working"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "shipping_and_returns.txt"
+   }
+  ]
+ },
+ {
+  "id": "d21",
+  "type": "combine",
+  "question": "What does the company give me for a home office, and who can get it?",
+  "must_include": [
+   [
+    "350"
+   ],
+   [
+    "probation"
+   ]
+  ],
+  "sources": [
+   {
+    "source": "employee_handbook.pdf",
+    "page": 5
+   }
+  ]
+ },
+ {
+  "id": "d22",
+  "type": "absent",
+  "question": "How many people work at Larkspur?",
+  "must_include": [],
+  "sources": []
+ },
+ {
+  "id": "d23",
+  "type": "absent",
+  "question": "Which colours is the Rill sold in?",
+  "must_include": [],
+  "sources": []
+ },
+ {
+  "id": "d24",
+  "type": "absent",
+  "question": "Does the company pay for gym membership?",
+  "must_include": [],
+  "sources": []
+ },
+ {
+  "id": "d25",
+  "type": "absent",
+  "question": "How do I pitch a Larkspur tent?",
+  "must_include": [],
+  "sources": []
+ },
+ {
+  "id": "d26",
+  "type": "absent",
+  "question": "What is the pension contribution?",
+  "must_include": [],
+  "sources": []
  }
 ]

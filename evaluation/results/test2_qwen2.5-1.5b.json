@@ -1,0 +1,302 @@
+{
+ "summary": {
+  "set": "test2",
+  "provider": "ollama",
+  "model": "qwen2.5:1.5b",
+  "retrieval": "13/14",
+  "answer": "10/14",
+  "citation": "10/14",
+  "refusal": "6/6",
+  "median_seconds": 5.77
+ },
+ "rows": [
+  {
+   "id": "u1",
+   "type": "simple",
+   "question": "How many days a week can I work from home?",
+   "answer": "Larkspur Outdoor Co. allows employees who have completed their three-month probation to work remotely up to three days per week [3].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 1"
+   ],
+   "top_score": 0.664,
+   "seconds": 11.18,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u2",
+   "type": "simple",
+   "question": "How long may I work from abroad in one year?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.654,
+   "seconds": 4.04,
+   "retrieval": false,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "u3",
+   "type": "simple",
+   "question": "From which day of illness is a doctor's certificate needed?",
+   "answer": "The doctor's certificate is needed from the fourth consecutive calendar day of absence [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 3"
+   ],
+   "top_score": 0.701,
+   "seconds": 6.45,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u4",
+   "type": "simple",
+   "question": "How long do I have to hand in an expense claim?",
+   "answer": "45 days [1]",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 4"
+   ],
+   "top_score": 0.685,
+   "seconds": 6.28,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u5",
+   "type": "simple",
+   "question": "What do I get per kilometre for using my own car?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.60, below 0.60.",
+   "cited": [],
+   "top_score": 0.599,
+   "seconds": 0.01,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "u6",
+   "type": "simple",
+   "question": "How much discount do staff get on products?",
+   "answer": "Staff receive a 40 percent discount on Larkspur products for personal use, limited to 1,500 euros of purchases per year at full retail value [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 6"
+   ],
+   "top_score": 0.736,
+   "seconds": 8.92,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u7",
+   "type": "simple",
+   "question": "How long should I soak the cartridge before storing it?",
+   "answer": "10 minutes in a mild bleach solution of 2 ml per litre, then let it dry completely for 48 hours [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > Cleaning and storage"
+   ],
+   "top_score": 0.775,
+   "seconds": 5.77,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u8",
+   "type": "simple",
+   "question": "Can I use the Rill with sea water?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.742,
+   "seconds": 4.05,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "u9",
+   "type": "simple",
+   "question": "Which seal kit do I order if the base still leaks?",
+   "answer": "Order seal kit RS-12 [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > Troubleshooting"
+   ],
+   "top_score": 0.701,
+   "seconds": 5.48,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u10",
+   "type": "simple",
+   "question": "Until what time can I order express delivery?",
+   "answer": "13:00 [1]",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "shipping_and_returns.txt, chunk 1"
+   ],
+   "top_score": 0.676,
+   "seconds": 6.91,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u11",
+   "type": "combine",
+   "question": "Who pays the postage when I return something, and how many days do I have?",
+   "answer": "Unused products may be returned within 60 days of delivery for a full refund [1]. The customer pays the return postage unless the item is faulty or we sent the wrong item [1]. Refunds reach the original payment method within 7 working days after we receive the parcel [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "shipping_and_returns.txt, chunk 1"
+   ],
+   "top_score": 0.678,
+   "seconds": 9.48,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u12",
+   "type": "combine",
+   "question": "How do the warranty periods for tents and water purifiers compare?",
+   "answer": "Tents carry a five-year warranty, while water purifiers carry a two-year warranty [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "shipping_and_returns.txt, chunk 2"
+   ],
+   "top_score": 0.862,
+   "seconds": 5.81,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u13",
+   "type": "combine",
+   "question": "How much parental leave do the primary and the secondary carer get?",
+   "answer": "The primary carer of a new child receives 22 weeks of fully paid parental leave [1]. The secondary carer receives 8 weeks of fully paid leave, which may be taken in up to two blocks during the first year [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 3"
+   ],
+   "top_score": 0.712,
+   "seconds": 7.05,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u14",
+   "type": "combine",
+   "question": "What discount do business orders get, and when must the invoice be paid?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.59, below 0.60.",
+   "cited": [],
+   "top_score": 0.595,
+   "seconds": 0.02,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "u15",
+   "type": "absent",
+   "question": "What is the notice period when I resign?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.674,
+   "seconds": 6.22,
+   "refusal": true
+  },
+  {
+   "id": "u16",
+   "type": "absent",
+   "question": "Does the Rill have a Bluetooth app?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.60, below 0.60.",
+   "cited": [],
+   "top_score": 0.597,
+   "seconds": 0.05,
+   "refusal": true
+  },
+  {
+   "id": "u17",
+   "type": "absent",
+   "question": "Can I pay for my order in instalments?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.602,
+   "seconds": 2.49,
+   "refusal": true
+  },
+  {
+   "id": "u18",
+   "type": "absent",
+   "question": "What is the maximum weight a Larkspur backpack can carry?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.716,
+   "seconds": 4.52,
+   "refusal": true
+  },
+  {
+   "id": "u19",
+   "type": "absent",
+   "question": "Does the company offer a company car?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.54, below 0.60.",
+   "cited": [],
+   "top_score": 0.54,
+   "seconds": 0.02,
+   "refusal": true
+  },
+  {
+   "id": "u20",
+   "type": "absent",
+   "question": "Who wrote the play Hamlet?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.34, below 0.60.",
+   "cited": [],
+   "top_score": 0.342,
+   "seconds": 0.01,
+   "refusal": true
+  }
+ ]
+}

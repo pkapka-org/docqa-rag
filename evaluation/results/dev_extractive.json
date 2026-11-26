@@ -3,10 +3,10 @@
   "set": "dev",
   "provider": "extractive",
   "model": "none",
-  "retrieval": "6/6",
-  "answer": "6/6",
-  "citation": "6/6",
-  "refusal": "3/4",
+  "retrieval": "17/17",
+  "answer": "13/17",
+  "citation": "16/17",
+  "refusal": "3/9",
   "median_seconds": 0.12
  },
  "rows": [
@@ -21,7 +21,7 @@
     "employee_handbook.pdf, page 2"
    ],
    "top_score": 0.854,
-   "seconds": 0.12,
+   "seconds": 0.13,
    "retrieval": true,
    "answer_ok": true,
    "citation": true
@@ -37,7 +37,7 @@
     "shipping_and_returns.txt, chunk 1"
    ],
    "top_score": 0.723,
-   "seconds": 0.13,
+   "seconds": 0.15,
    "retrieval": true,
    "answer_ok": true,
    "citation": true
@@ -53,7 +53,7 @@
     "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > Specifications"
    ],
    "top_score": 0.737,
-   "seconds": 0.08,
+   "seconds": 0.09,
    "retrieval": true,
    "answer_ok": true,
    "citation": true
@@ -85,7 +85,7 @@
     "employee_handbook.pdf, page 4"
    ],
    "top_score": 0.767,
-   "seconds": 0.12,
+   "seconds": 0.17,
    "retrieval": true,
    "answer_ok": true,
    "citation": true
@@ -101,7 +101,7 @@
     "shipping_and_returns.txt, chunk 2"
    ],
    "top_score": 0.797,
-   "seconds": 0.14,
+   "seconds": 0.15,
    "retrieval": true,
    "answer_ok": true,
    "citation": true
@@ -112,7 +112,7 @@
    "question": "What is the CEO's name?",
    "answer": "I could not find the answer in the uploaded documents.",
    "found": false,
-   "reason": "Best match scored 0.44, below 0.65.",
+   "reason": "Best match scored 0.44, below 0.60.",
    "cited": [],
    "top_score": 0.439,
    "seconds": 0.01,
@@ -124,7 +124,7 @@
    "question": "How do I reset the Wi-Fi password on my router?",
    "answer": "I could not find the answer in the uploaded documents.",
    "found": false,
-   "reason": "Best match scored 0.51, below 0.65.",
+   "reason": "Best match scored 0.51, below 0.60.",
    "cited": [],
    "top_score": 0.513,
    "seconds": 0.01,
@@ -141,18 +141,270 @@
     "shipping_and_returns.txt, chunk 1"
    ],
    "top_score": 0.798,
-   "seconds": 0.13,
+   "seconds": 0.15,
    "refusal": false
   },
   {
    "id": "d10",
    "type": "absent",
    "question": "How many calories should I eat on a long hike?",
+   "answer": "The Rill is a hand-pumped water purifier for hikers [2]. The daily meal limit while travelling is 55 euros [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 4",
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual"
+   ],
+   "top_score": 0.628,
+   "seconds": 0.1,
+   "refusal": false
+  },
+  {
+   "id": "d11",
+   "type": "combine",
+   "question": "How many annual leave days do I get after seven years here?",
+   "answer": "Full-time employees receive 26 days of paid annual leave per calendar year, in addition to public holidays [1]. The primary carer of a new child receives 22 weeks of fully paid parental leave [2].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 2",
+    "employee_handbook.pdf, page 3"
+   ],
+   "top_score": 0.793,
+   "seconds": 0.12,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": true
+  },
+  {
+   "id": "d12",
+   "type": "combine",
+   "question": "Does the warranty pay for a purifier that froze?",
+   "answer": "Water purifiers carry a two-year warranty, and cartridges are excluded because they wear out with use [1]. The warranty covers faults in material and workmanship [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "shipping_and_returns.txt, chunk 2"
+   ],
+   "top_score": 0.78,
+   "seconds": 0.11,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": true
+  },
+  {
+   "id": "d13",
+   "type": "simple",
+   "question": "I opened a purifier cartridge. Can I send it back?",
+   "answer": "If the flow drops below 0.5 litres per minute even after backflushing, replace the cartridge [3]. Pump three litres through the cartridge and discard them [2].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > Troubleshooting",
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > Cleaning and storage"
+   ],
+   "top_score": 0.697,
+   "seconds": 0.12,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "d14",
+   "type": "simple",
+   "question": "When are core hours?",
+   "answer": "Core hours, when everyone is expected to be reachable, are 10:00 to 15:00 local time, Monday to Thursday [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 1"
+   ],
+   "top_score": 0.681,
+   "seconds": 0.12,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d15",
+   "type": "simple",
+   "question": "I am ill. By what time do I have to let my manager know?",
+   "answer": "Employees should tell their line manager about sickness absence before 09:30 on the first day [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 3"
+   ],
+   "top_score": 0.683,
+   "seconds": 0.1,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d16",
+   "type": "simple",
+   "question": "Is the hotel limit different in a capital city?",
+   "answer": "Hotel stays are limited to 160 euros per night, or 210 euros in capital cities [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 4"
+   ],
+   "top_score": 0.684,
+   "seconds": 0.11,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d17",
+   "type": "simple",
+   "question": "What does the purifier weigh?",
+   "answer": "Operating temperature: 1 to 45 degrees Celsius [2]. It weighs 410 grams and fits a 63 mm wide bottle mouth [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual",
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > Specifications"
+   ],
+   "top_score": 0.721,
+   "seconds": 0.1,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d18",
+   "type": "simple",
+   "question": "My water tastes like plastic, what now?",
+   "answer": "Water tastes of plastic [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > Troubleshooting"
+   ],
+   "top_score": 0.695,
+   "seconds": 0.13,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": true
+  },
+  {
+   "id": "d19",
+   "type": "simple",
+   "question": "Which countries outside the EU do you deliver to?",
+   "answer": "We deliver to all European Union countries, Norway and Switzerland [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "shipping_and_returns.txt, chunk 1"
+   ],
+   "top_score": 0.617,
+   "seconds": 0.15,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d20",
+   "type": "simple",
+   "question": "How fast do I get my money back after a return?",
+   "answer": "Refunds reach the original payment method within 7 working days after we receive the parcel [2]. Unused products may be returned within 60 days of delivery for a full refund [2].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "shipping_and_returns.txt, chunk 1"
+   ],
+   "top_score": 0.666,
+   "seconds": 0.16,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d21",
+   "type": "combine",
+   "question": "What does the company give me for a home office, and who can get it?",
+   "answer": "Each employee may spend up to 350 euros on home office equipment once every three years, after finishing probation [1]. Company data may not be stored on personal devices [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 5"
+   ],
+   "top_score": 0.687,
+   "seconds": 0.13,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d22",
+   "type": "absent",
+   "question": "How many people work at Larkspur?",
+   "answer": "Larkspur Outdoor Co. operates a standard 38-hour working week [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 1"
+   ],
+   "top_score": 0.748,
+   "seconds": 0.1,
+   "refusal": false
+  },
+  {
+   "id": "d23",
+   "type": "absent",
+   "question": "Which colours is the Rill sold in?",
+   "answer": "Before storing the Rill for more than two weeks, soak the cartridge for 10 minutes in a mild bleach solution of 2 ml per litre, then let it dry completely for 48 hours [2]. The Rill removes bacteria, protozoa and microplastics [3].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > Cleaning and storage",
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > What it removes"
+   ],
+   "top_score": 0.616,
+   "seconds": 0.08,
+   "refusal": false
+  },
+  {
+   "id": "d24",
+   "type": "absent",
+   "question": "Does the company pay for gym membership?",
+   "answer": "Part-time employees receive a pro-rated amount [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 2"
+   ],
+   "top_score": 0.618,
+   "seconds": 0.11,
+   "refusal": false
+  },
+  {
+   "id": "d25",
+   "type": "absent",
+   "question": "How do I pitch a Larkspur tent?",
+   "answer": "Larkspur Outdoor Co. operates a standard 38-hour working week [2]. Tighten the base a quarter turn [3].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 1",
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > Troubleshooting"
+   ],
+   "top_score": 0.663,
+   "seconds": 0.11,
+   "refusal": false
+  },
+  {
+   "id": "d26",
+   "type": "absent",
+   "question": "What is the pension contribution?",
    "answer": "I could not find the answer in the uploaded documents.",
    "found": false,
-   "reason": "Best match scored 0.63, below 0.65.",
+   "reason": "Best match scored 0.59, below 0.60.",
    "cited": [],
-   "top_score": 0.628,
+   "top_score": 0.585,
    "seconds": 0.01,
    "refusal": true
   }

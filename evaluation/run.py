@@ -1,6 +1,10 @@
 """Score the system on a question set.
 
-    python -m evaluation.run --set test --provider extractive
+    python -m evaluation.run --set test2 --provider extractive
+
+dev    26 questions used to choose settings
+test   15 questions, held out at first; seen while debugging, so no longer independent
+test2  20 questions written later and scored once, after all settings were fixed
 
 retrieval hit  every expected passage is among the retrieved chunks
 answer         the required facts appear in the answer (answerable questions)
@@ -69,7 +73,7 @@ def rate(rows: list[dict], key: str) -> str:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--set", choices=("dev", "test"), default="test")
+    parser.add_argument("--set", choices=("dev", "test", "test2"), default="test")
     parser.add_argument("--provider", choices=PROVIDERS, default="extractive")
     parser.add_argument("--model", default="")
     parser.add_argument("--save", help="write the rows to this JSON file")

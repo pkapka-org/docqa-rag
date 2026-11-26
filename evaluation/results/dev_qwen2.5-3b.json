@@ -1,0 +1,380 @@
+{
+ "summary": {
+  "set": "dev",
+  "provider": "ollama",
+  "model": "qwen2.5:3b",
+  "retrieval": "17/17",
+  "answer": "9/17",
+  "citation": "10/17",
+  "refusal": "9/9",
+  "median_seconds": 10.34
+ },
+ "rows": [
+  {
+   "id": "d1",
+   "type": "simple",
+   "question": "How many days of annual leave do full-time employees get?",
+   "answer": "Full-time employees receive 26 days of paid annual leave per calendar year [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 2"
+   ],
+   "top_score": 0.854,
+   "seconds": 15.29,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d2",
+   "type": "simple",
+   "question": "How long does standard delivery take?",
+   "answer": "Standard delivery takes 3 to 5 working days [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "shipping_and_returns.txt, chunk 1"
+   ],
+   "top_score": 0.723,
+   "seconds": 15.19,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d3",
+   "type": "simple",
+   "question": "What is the pore size of the Rill?",
+   "answer": "The pore size of the Rill is 0.1 micron [2].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > Specifications"
+   ],
+   "top_score": 0.737,
+   "seconds": 11.19,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d4",
+   "type": "simple",
+   "question": "What grease should I use on the O-ring?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "No retrieved passage supports the model's answer, so it was withheld.",
+   "cited": [],
+   "top_score": 0.704,
+   "seconds": 8.39,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "d5",
+   "type": "simple",
+   "question": "How much is the daily meal limit when travelling?",
+   "answer": "The daily meal limit while travelling is 55 euros [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 4"
+   ],
+   "top_score": 0.767,
+   "seconds": 12.09,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d6",
+   "type": "combine",
+   "question": "How long is the warranty on a water purifier, and does it cover the cartridge?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.797,
+   "seconds": 12.36,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "d7",
+   "type": "absent",
+   "question": "What is the CEO's name?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.44, below 0.60.",
+   "cited": [],
+   "top_score": 0.439,
+   "seconds": 0.01,
+   "refusal": true
+  },
+  {
+   "id": "d8",
+   "type": "absent",
+   "question": "How do I reset the Wi-Fi password on my router?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.51, below 0.60.",
+   "cited": [],
+   "top_score": 0.513,
+   "seconds": 0.01,
+   "refusal": true
+  },
+  {
+   "id": "d9",
+   "type": "absent",
+   "question": "Does Larkspur ship to Japan by sea freight, and how much does it cost?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.798,
+   "seconds": 9.39,
+   "refusal": true
+  },
+  {
+   "id": "d10",
+   "type": "absent",
+   "question": "How many calories should I eat on a long hike?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.628,
+   "seconds": 8.54,
+   "refusal": true
+  },
+  {
+   "id": "d11",
+   "type": "combine",
+   "question": "How many annual leave days do I get after seven years here?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.793,
+   "seconds": 5.56,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "d12",
+   "type": "combine",
+   "question": "Does the warranty pay for a purifier that froze?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.78,
+   "seconds": 6.91,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "d13",
+   "type": "simple",
+   "question": "I opened a purifier cartridge. Can I send it back?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.697,
+   "seconds": 9.6,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "d14",
+   "type": "simple",
+   "question": "When are core hours?",
+   "answer": "Core hours are from 10:00 to 15:00 local time, Monday to Thursday [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 1"
+   ],
+   "top_score": 0.681,
+   "seconds": 13.71,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d15",
+   "type": "simple",
+   "question": "I am ill. By what time do I have to let my manager know?",
+   "answer": "Employees should tell their line manager about sickness absence before 09:30 on the first day [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 3"
+   ],
+   "top_score": 0.683,
+   "seconds": 14.72,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d16",
+   "type": "simple",
+   "question": "Is the hotel limit different in a capital city?",
+   "answer": "The hotel limit in a capital city is 210 euros [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 4"
+   ],
+   "top_score": 0.684,
+   "seconds": 11.05,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d17",
+   "type": "simple",
+   "question": "What does the purifier weigh?",
+   "answer": "The Rill weighs 410 grams [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual"
+   ],
+   "top_score": 0.721,
+   "seconds": 7.84,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d18",
+   "type": "simple",
+   "question": "My water tastes like plastic, what now?",
+   "answer": "Water tastes of plastic [1]. Pump three litres through the cartridge and discard them [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > Troubleshooting"
+   ],
+   "top_score": 0.695,
+   "seconds": 11.63,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d19",
+   "type": "simple",
+   "question": "Which countries outside the EU do you deliver to?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.617,
+   "seconds": 10.3,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "d20",
+   "type": "simple",
+   "question": "How fast do I get my money back after a return?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.666,
+   "seconds": 10.52,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "d21",
+   "type": "combine",
+   "question": "What does the company give me for a home office, and who can get it?",
+   "answer": "Larkspur Outdoor Co. gives employees a laptop for home office use [1]. Only office staff can get this benefit [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 5"
+   ],
+   "top_score": 0.687,
+   "seconds": 13.58,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": true
+  },
+  {
+   "id": "d22",
+   "type": "absent",
+   "question": "How many people work at Larkspur?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.748,
+   "seconds": 10.34,
+   "refusal": true
+  },
+  {
+   "id": "d23",
+   "type": "absent",
+   "question": "Which colours is the Rill sold in?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.616,
+   "seconds": 6.92,
+   "refusal": true
+  },
+  {
+   "id": "d24",
+   "type": "absent",
+   "question": "Does the company pay for gym membership?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.618,
+   "seconds": 9.88,
+   "refusal": true
+  },
+  {
+   "id": "d25",
+   "type": "absent",
+   "question": "How do I pitch a Larkspur tent?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.663,
+   "seconds": 11.34,
+   "refusal": true
+  },
+  {
+   "id": "d26",
+   "type": "absent",
+   "question": "What is the pension contribution?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.59, below 0.60.",
+   "cited": [],
+   "top_score": 0.585,
+   "seconds": 0.01,
+   "refusal": true
+  }
+ ]
+}

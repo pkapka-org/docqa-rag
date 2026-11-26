@@ -1,0 +1,294 @@
+{
+ "summary": {
+  "set": "test2",
+  "provider": "ollama",
+  "model": "qwen2.5:3b",
+  "retrieval": "13/14",
+  "answer": "6/14",
+  "citation": "6/14",
+  "refusal": "6/6",
+  "median_seconds": 10.6
+ },
+ "rows": [
+  {
+   "id": "u1",
+   "type": "simple",
+   "question": "How many days a week can I work from home?",
+   "answer": "Employees who have completed their three-month probation may work remotely up to three days per week [3].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 1"
+   ],
+   "top_score": 0.664,
+   "seconds": 18.68,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u2",
+   "type": "simple",
+   "question": "How long may I work from abroad in one year?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.654,
+   "seconds": 8.91,
+   "retrieval": false,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "u3",
+   "type": "simple",
+   "question": "From which day of illness is a doctor's certificate needed?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.701,
+   "seconds": 13.46,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "u4",
+   "type": "simple",
+   "question": "How long do I have to hand in an expense claim?",
+   "answer": "You must submit an expense claim in Trailhead within 45 days of the purchase [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 4"
+   ],
+   "top_score": 0.685,
+   "seconds": 15.39,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u5",
+   "type": "simple",
+   "question": "What do I get per kilometre for using my own car?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.60, below 0.60.",
+   "cited": [],
+   "top_score": 0.599,
+   "seconds": 0.03,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "u6",
+   "type": "simple",
+   "question": "How much discount do staff get on products?",
+   "answer": "Staff receive a 40 percent discount on Larkspur products for personal use, limited to 1,500 euros of purchases per year at full retail value [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 6"
+   ],
+   "top_score": 0.736,
+   "seconds": 16.62,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u7",
+   "type": "simple",
+   "question": "How long should I soak the cartridge before storing it?",
+   "answer": "Before storing the Rill for more than two weeks, soak the cartridge for 10 minutes in a mild bleach solution of 2 ml per litre, then let it dry completely for 48 hours [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > Cleaning and storage"
+   ],
+   "top_score": 0.775,
+   "seconds": 16.52,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u8",
+   "type": "simple",
+   "question": "Can I use the Rill with sea water?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.742,
+   "seconds": 9.0,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "u9",
+   "type": "simple",
+   "question": "Which seal kit do I order if the base still leaks?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "No retrieved passage supports the model's answer, so it was withheld.",
+   "cited": [],
+   "top_score": 0.701,
+   "seconds": 10.6,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "u10",
+   "type": "simple",
+   "question": "Until what time can I order express delivery?",
+   "answer": "Express delivery can be ordered only for orders placed before 13:00 [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "shipping_and_returns.txt, chunk 1"
+   ],
+   "top_score": 0.676,
+   "seconds": 18.8,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u11",
+   "type": "combine",
+   "question": "Who pays the postage when I return something, and how many days do I have?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.678,
+   "seconds": 15.43,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "u12",
+   "type": "combine",
+   "question": "How do the warranty periods for tents and water purifiers compare?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.862,
+   "seconds": 10.92,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "u13",
+   "type": "combine",
+   "question": "How much parental leave do the primary and the secondary carer get?",
+   "answer": "The primary carer of a new child receives 22 weeks of fully paid parental leave [1]. The secondary carer receives 8 weeks of fully paid leave, which may be taken in up to two blocks during the first year [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 3"
+   ],
+   "top_score": 0.712,
+   "seconds": 12.97,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u14",
+   "type": "combine",
+   "question": "What discount do business orders get, and when must the invoice be paid?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.59, below 0.60.",
+   "cited": [],
+   "top_score": 0.595,
+   "seconds": 0.05,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "u15",
+   "type": "absent",
+   "question": "What is the notice period when I resign?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.674,
+   "seconds": 9.36,
+   "refusal": true
+  },
+  {
+   "id": "u16",
+   "type": "absent",
+   "question": "Does the Rill have a Bluetooth app?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.60, below 0.60.",
+   "cited": [],
+   "top_score": 0.597,
+   "seconds": 0.02,
+   "refusal": true
+  },
+  {
+   "id": "u17",
+   "type": "absent",
+   "question": "Can I pay for my order in instalments?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.602,
+   "seconds": 4.09,
+   "refusal": true
+  },
+  {
+   "id": "u18",
+   "type": "absent",
+   "question": "What is the maximum weight a Larkspur backpack can carry?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "The retrieved passages do not contain the answer.",
+   "cited": [],
+   "top_score": 0.716,
+   "seconds": 8.37,
+   "refusal": true
+  },
+  {
+   "id": "u19",
+   "type": "absent",
+   "question": "Does the company offer a company car?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.54, below 0.60.",
+   "cited": [],
+   "top_score": 0.54,
+   "seconds": 0.01,
+   "refusal": true
+  },
+  {
+   "id": "u20",
+   "type": "absent",
+   "question": "Who wrote the play Hamlet?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.34, below 0.60.",
+   "cited": [],
+   "top_score": 0.342,
+   "seconds": 0.01,
+   "refusal": true
+  }
+ ]
+}

@@ -1,0 +1,160 @@
+{
+ "summary": {
+  "set": "dev",
+  "provider": "extractive",
+  "model": "none",
+  "retrieval": "6/6",
+  "answer": "6/6",
+  "citation": "6/6",
+  "refusal": "3/4",
+  "median_seconds": 0.12
+ },
+ "rows": [
+  {
+   "id": "d1",
+   "type": "simple",
+   "question": "How many days of annual leave do full-time employees get?",
+   "answer": "Full-time employees receive 26 days of paid annual leave per calendar year, in addition to public holidays [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 2"
+   ],
+   "top_score": 0.854,
+   "seconds": 0.12,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d2",
+   "type": "simple",
+   "question": "How long does standard delivery take?",
+   "answer": "Standard delivery takes 3 to 5 working days and costs 4.90 euros [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "shipping_and_returns.txt, chunk 1"
+   ],
+   "top_score": 0.723,
+   "seconds": 0.13,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d3",
+   "type": "simple",
+   "question": "What is the pore size of the Rill?",
+   "answer": "Pore size: 0.1 micron [2].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > Specifications"
+   ],
+   "top_score": 0.737,
+   "seconds": 0.08,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d4",
+   "type": "simple",
+   "question": "What grease should I use on the O-ring?",
+   "answer": "Grease the O-ring with silicone grease [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > Troubleshooting"
+   ],
+   "top_score": 0.704,
+   "seconds": 0.12,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d5",
+   "type": "simple",
+   "question": "How much is the daily meal limit when travelling?",
+   "answer": "The daily meal limit while travelling is 55 euros [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 4"
+   ],
+   "top_score": 0.767,
+   "seconds": 0.12,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d6",
+   "type": "combine",
+   "question": "How long is the warranty on a water purifier, and does it cover the cartridge?",
+   "answer": "Water purifiers carry a two-year warranty, and cartridges are excluded because they wear out with use [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "shipping_and_returns.txt, chunk 2"
+   ],
+   "top_score": 0.797,
+   "seconds": 0.14,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "d7",
+   "type": "absent",
+   "question": "What is the CEO's name?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.44, below 0.65.",
+   "cited": [],
+   "top_score": 0.439,
+   "seconds": 0.01,
+   "refusal": true
+  },
+  {
+   "id": "d8",
+   "type": "absent",
+   "question": "How do I reset the Wi-Fi password on my router?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.51, below 0.65.",
+   "cited": [],
+   "top_score": 0.513,
+   "seconds": 0.01,
+   "refusal": true
+  },
+  {
+   "id": "d9",
+   "type": "absent",
+   "question": "Does Larkspur ship to Japan by sea freight, and how much does it cost?",
+   "answer": "Standard delivery takes 3 to 5 working days and costs 4.90 euros [1]. Express delivery takes one working day, costs 12.50 euros, and is available only for orders placed before 13:00 [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "shipping_and_returns.txt, chunk 1"
+   ],
+   "top_score": 0.798,
+   "seconds": 0.13,
+   "refusal": false
+  },
+  {
+   "id": "d10",
+   "type": "absent",
+   "question": "How many calories should I eat on a long hike?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.63, below 0.65.",
+   "cited": [],
+   "top_score": 0.628,
+   "seconds": 0.01,
+   "refusal": true
+  }
+ ]
+}

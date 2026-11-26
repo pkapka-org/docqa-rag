@@ -1,0 +1,317 @@
+{
+ "summary": {
+  "set": "test2",
+  "provider": "extractive",
+  "model": "none",
+  "retrieval": "13/14",
+  "answer": "9/14",
+  "citation": "11/14",
+  "refusal": "3/6",
+  "median_seconds": 0.13
+ },
+ "rows": [
+  {
+   "id": "u1",
+   "type": "simple",
+   "question": "How many days a week can I work from home?",
+   "answer": "Employees who have completed their three-month probation may work remotely up to three days per week [3].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 1"
+   ],
+   "top_score": 0.664,
+   "seconds": 0.14,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u2",
+   "type": "simple",
+   "question": "How long may I work from abroad in one year?",
+   "answer": "Up to 6 unused days may be carried into the next year, but carried days expire on 31 March [1]. Full-time employees receive 26 days of paid annual leave per calendar year, in addition to public holidays [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 2"
+   ],
+   "top_score": 0.654,
+   "seconds": 0.15,
+   "retrieval": false,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "u3",
+   "type": "simple",
+   "question": "From which day of illness is a doctor's certificate needed?",
+   "answer": "A medical certificate is required from the fourth consecutive calendar day of absence [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 3"
+   ],
+   "top_score": 0.701,
+   "seconds": 0.12,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u4",
+   "type": "simple",
+   "question": "How long do I have to hand in an expense claim?",
+   "answer": "Expense claims must be submitted in Trailhead within 45 days of the purchase, with a receipt for every item above 15 euros [1]. Invoices are payable within 30 days [3].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 4",
+    "shipping_and_returns.txt, chunk 2"
+   ],
+   "top_score": 0.685,
+   "seconds": 0.17,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u5",
+   "type": "simple",
+   "question": "What do I get per kilometre for using my own car?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.60, below 0.60.",
+   "cited": [],
+   "top_score": 0.599,
+   "seconds": 0.01,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "u6",
+   "type": "simple",
+   "question": "How much discount do staff get on products?",
+   "answer": "Part-time employees receive a pro-rated amount [3]. Staff receive a 40 percent discount on Larkspur products for personal use, limited to 1,500 euros of purchases per year at full retail value [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 6",
+    "employee_handbook.pdf, page 2"
+   ],
+   "top_score": 0.736,
+   "seconds": 0.22,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u7",
+   "type": "simple",
+   "question": "How long should I soak the cartridge before storing it?",
+   "answer": "Before storing the Rill for more than two weeks, soak the cartridge for 10 minutes in a mild bleach solution of 2 ml per litre, then let it dry completely for 48 hours [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > Cleaning and storage"
+   ],
+   "top_score": 0.775,
+   "seconds": 0.15,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u8",
+   "type": "simple",
+   "question": "Can I use the Rill with sea water?",
+   "answer": "Do not use it with sea water [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > What it removes"
+   ],
+   "top_score": 0.742,
+   "seconds": 0.05,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u9",
+   "type": "simple",
+   "question": "Which seal kit do I order if the base still leaks?",
+   "answer": "If it still leaks, order seal kit RS-12 [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "rill_purifier_manual.md, section: Larkspur Rill Water Purifier Manual > Troubleshooting"
+   ],
+   "top_score": 0.701,
+   "seconds": 0.13,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u10",
+   "type": "simple",
+   "question": "Until what time can I order express delivery?",
+   "answer": "Express delivery takes one working day, costs 12.50 euros, and is available only for orders placed before 13:00 [1]. Standard delivery takes 3 to 5 working days and costs 4.90 euros [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "shipping_and_returns.txt, chunk 1"
+   ],
+   "top_score": 0.676,
+   "seconds": 0.19,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u11",
+   "type": "combine",
+   "question": "Who pays the postage when I return something, and how many days do I have?",
+   "answer": "The customer pays the return postage unless the item is faulty or we sent the wrong item [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "shipping_and_returns.txt, chunk 1"
+   ],
+   "top_score": 0.678,
+   "seconds": 0.2,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": true
+  },
+  {
+   "id": "u12",
+   "type": "combine",
+   "question": "How do the warranty periods for tents and water purifiers compare?",
+   "answer": "Water purifiers carry a two-year warranty, and cartridges are excluded because they wear out with use [1]. Tents and backpacks carry a five-year warranty [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "shipping_and_returns.txt, chunk 2"
+   ],
+   "top_score": 0.862,
+   "seconds": 0.11,
+   "retrieval": true,
+   "answer_ok": true,
+   "citation": true
+  },
+  {
+   "id": "u13",
+   "type": "combine",
+   "question": "How much parental leave do the primary and the secondary carer get?",
+   "answer": "The primary carer of a new child receives 22 weeks of fully paid parental leave [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 3"
+   ],
+   "top_score": 0.712,
+   "seconds": 0.11,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": true
+  },
+  {
+   "id": "u14",
+   "type": "combine",
+   "question": "What discount do business orders get, and when must the invoice be paid?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.59, below 0.60.",
+   "cited": [],
+   "top_score": 0.595,
+   "seconds": 0.01,
+   "retrieval": true,
+   "answer_ok": false,
+   "citation": false
+  },
+  {
+   "id": "u15",
+   "type": "absent",
+   "question": "What is the notice period when I resign?",
+   "answer": "Employees should tell their line manager about sickness absence before 09:30 on the first day [2]. Leave of more than ten consecutive working days requires approval from both the line manager and the department head [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 2",
+    "employee_handbook.pdf, page 3"
+   ],
+   "top_score": 0.674,
+   "seconds": 0.13,
+   "refusal": false
+  },
+  {
+   "id": "u16",
+   "type": "absent",
+   "question": "Does the Rill have a Bluetooth app?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.60, below 0.60.",
+   "cited": [],
+   "top_score": 0.597,
+   "seconds": 0.01,
+   "refusal": true
+  },
+  {
+   "id": "u17",
+   "type": "absent",
+   "question": "Can I pay for my order in instalments?",
+   "answer": "The customer pays the return postage unless the item is faulty or we sent the wrong item [1]. Invoices are payable within 30 days [2].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "shipping_and_returns.txt, chunk 1",
+    "shipping_and_returns.txt, chunk 2"
+   ],
+   "top_score": 0.602,
+   "seconds": 0.17,
+   "refusal": false
+  },
+  {
+   "id": "u18",
+   "type": "absent",
+   "question": "What is the maximum weight a Larkspur backpack can carry?",
+   "answer": "Staff receive a 40 percent discount on Larkspur products for personal use, limited to 1,500 euros of purchases per year at full retail value [2]. Expense claims must be submitted in Trailhead within 45 days of the purchase, with a receipt for every item above 15 euros [1].",
+   "found": true,
+   "reason": "",
+   "cited": [
+    "employee_handbook.pdf, page 4",
+    "employee_handbook.pdf, page 6"
+   ],
+   "top_score": 0.716,
+   "seconds": 0.13,
+   "refusal": false
+  },
+  {
+   "id": "u19",
+   "type": "absent",
+   "question": "Does the company offer a company car?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.54, below 0.60.",
+   "cited": [],
+   "top_score": 0.54,
+   "seconds": 0.01,
+   "refusal": true
+  },
+  {
+   "id": "u20",
+   "type": "absent",
+   "question": "Who wrote the play Hamlet?",
+   "answer": "I could not find the answer in the uploaded documents.",
+   "found": false,
+   "reason": "Best match scored 0.34, below 0.60.",
+   "cited": [],
+   "top_score": 0.342,
+   "seconds": 0.0,
+   "refusal": true
+  }
+ ]
+}

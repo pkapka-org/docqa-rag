@@ -5,3 +5,4 @@ __pycache__/
 .chroma/
 .env
 .streamlit/secrets.toml
+.tuning/

@@ -14,4 +14,4 @@ jobs:
       - run: pip install -r requirements-dev.txt
       - run: ruff check .
       - run: pytest -q
-      - run: python -m evaluation.run --set test --provider extractive
+      - run: python -m evaluation.run --set test2 --provider extractive
